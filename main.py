@@ -1,4 +1,4 @@
-from database import DataBase
+from database import Database
 
-db = DataBase()
+db = Database()
 db.apply_checks()
