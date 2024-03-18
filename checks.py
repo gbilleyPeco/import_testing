@@ -3,7 +3,7 @@ class Check():
         self.action = action
 
     def speak(self):
-        print(action)
+        print(self.action)
 
 class CheckOne(Check):
     def __init__(self):
