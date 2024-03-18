@@ -9,5 +9,5 @@ class CheckOne(Check):
     def __init__(self):
         Check.__init__(self, "Performing the first check.")
 
-    def apply_(self, vsf_data):
+    def apply_(self):
         self.speak()
