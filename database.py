@@ -5,6 +5,7 @@ class Database():
     
     def apply_checks(self):
         import importlib
-        checks = [importlib.import_module(f'checks.{i}') for i in self.check_names]
-        for c in checks:
+        import checks
+        all_checks = [getattr(checks,i) for i in self.check_names]
+        for c in all_checks:
             c().apply_()
