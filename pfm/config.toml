@@ -1,0 +1,5 @@
+# This config file contains information that is shared between the Staging
+# Database update process, and the Peco Frog Model build process.
+[PFM_Config_Section]
+# The Cosmic Frog models that we want to connect to.
+PFM_PARAM_1 = 'Does this work?'

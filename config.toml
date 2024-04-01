@@ -1,0 +1,9 @@
+# This config file contains information that is shared between the Staging
+# Database update process, and the Peco Frog Model build process.
+[Cosmic_Frog_Database_Names]
+# The Cosmic Frog models that we want to connect to.
+STAGING_DATABASE_NAME = 'PFM Staging DB'
+FROG_MODEL_NAME = 'PFM Apr 2024 Example'
+
+[SOIP_Parameters]
+SOIP_MONTH = '2024-04-01'
